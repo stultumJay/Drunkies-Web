@@ -9,25 +9,111 @@ if (isLoggedIn()) {
 
 // Handle registration form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['username'] ?? '';
-    $first_name = $_POST['first_name'] ?? '';
-    $last_name = $_POST['last_name'] ?? '';
-    $email = $_POST['email'] ?? '';
+    // Debug all POST data
+    error_log("POST Data received: " . print_r($_POST, true));
+
+    $username = trim($_POST['username'] ?? '');
+    $first_name = trim($_POST['first_name'] ?? '');
+    $last_name = trim($_POST['last_name'] ?? '');
+    $email = trim($_POST['email'] ?? '');
     $password = $_POST['password'] ?? '';
     $confirm_password = $_POST['confirm_password'] ?? '';
-    $birthdate = $_POST['birthdate'] ?? '';
-    $street = $_POST['street'] ?? '';
-    $city = $_POST['city'] ?? '';
-    $state = $_POST['state'] ?? '';
-    $postal_code = $_POST['postal_code'] ?? '';
-    $country = $_POST['country'] ?? '';
+    $birthdate = trim($_POST['birthdate'] ?? '');
+    $street = trim($_POST['street'] ?? '');
+    $city = trim($_POST['city'] ?? '');
+    $state = trim($_POST['state'] ?? '');
+    $postal_code = trim($_POST['postal_code'] ?? '');
+    $country = trim($_POST['country'] ?? '');
+    $terms = isset($_POST['terms']);
 
-    // Validate required fields
-    if (empty($username) || empty($first_name) || empty($last_name) || empty($email) || 
-        empty($password) || empty($confirm_password) || empty($birthdate)) {
-        flashMessage("Please fill in all required fields", "danger");
-    } elseif ($password !== $confirm_password) {
-        flashMessage("Passwords do not match", "danger");
+    // Debug received birthdate
+    error_log("Received birthdate value: " . $birthdate);
+
+    // Initialize errors array
+    $errors = [];
+
+    // Validate required fields with detailed logging
+    if (empty($username)) {
+        error_log("Username is empty");
+        $errors[] = "Username is required";
+    }
+    if (empty($first_name)) {
+        error_log("First name is empty");
+        $errors[] = "First name is required";
+    }
+    if (empty($last_name)) {
+        error_log("Last name is empty");
+        $errors[] = "Last name is required";
+    }
+    if (empty($email)) {
+        error_log("Email is empty");
+        $errors[] = "Email is required";
+    }
+    if (empty($password)) {
+        error_log("Password is empty");
+        $errors[] = "Password is required";
+    }
+    if (empty($confirm_password)) {
+        error_log("Confirm password is empty");
+        $errors[] = "Password confirmation is required";
+    }
+    if (empty($birthdate)) {
+        error_log("Birthdate is empty");
+        $errors[] = "Birthdate is required";
+    }
+    if (!$terms) {
+        error_log("Terms not accepted");
+        $errors[] = "You must agree to the Terms and Conditions";
+    }
+
+    // Validate email format
+    if (!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = "Invalid email format";
+    }
+
+    // Validate password requirements
+    if (!empty($password)) {
+        if (strlen($password) < 8) $errors[] = "Password must be at least 8 characters long";
+        if (!preg_match('/[A-Z]/', $password)) $errors[] = "Password must contain at least one uppercase letter";
+        if (!preg_match('/[a-z]/', $password)) $errors[] = "Password must contain at least one lowercase letter";
+        if (!preg_match('/[0-9]/', $password)) $errors[] = "Password must contain at least one number";
+        if (!preg_match('/[!@#$%^&*(),.?":{}|<>]/', $password)) $errors[] = "Password must contain at least one special character";
+    }
+
+    // Validate passwords match
+    if ($password !== $confirm_password) {
+        $errors[] = "Passwords do not match";
+    }
+
+    // Validate birthdate format and age
+    if (!empty($birthdate)) {
+        // Check if birthdate matches YYYY-MM-DD format
+        if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $birthdate)) {
+            error_log("Invalid birthdate format received: " . $birthdate);
+            $errors[] = "Birthdate must be in YYYY-MM-DD format (received: " . htmlspecialchars($birthdate) . ")";
+        } else {
+            try {
+                $birthdateObj = new DateTime($birthdate);
+                $today = new DateTime();
+                $age = $today->diff($birthdateObj)->y;
+                
+                error_log("Calculated age: " . $age);
+                
+                if ($age < 18) {
+                    error_log("User is under 18 (age: " . $age . ")");
+                    $errors[] = "You must be at least 18 years old to register (you are " . $age . " years old)";
+                }
+            } catch (Exception $e) {
+                error_log("DateTime error with birthdate: " . $e->getMessage());
+                $errors[] = "Invalid birthdate: " . $e->getMessage();
+            }
+        }
+    }
+
+    // If there are validation errors
+    if (!empty($errors)) {
+        error_log("Validation errors found: " . implode(", ", $errors));
+        flashMessage(implode("<br>", $errors), "danger");
     } else {
         try {
             $conn->begin_transaction();
@@ -55,7 +141,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ");
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);
             $stmt->bind_param("ssssss", $username, $first_name, $last_name, $email, $hashed_password, $birthdate);
-            $stmt->execute();
+            
+            if (!$stmt->execute()) {
+                throw new Exception("Error creating user account: " . $stmt->error);
+            }
+            
             $user_id = $conn->insert_id;
 
             // Insert address if provided
@@ -65,7 +155,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     VALUES (?, ?, ?, ?, ?, ?)
                 ");
                 $stmt->bind_param("isssss", $user_id, $street, $city, $state, $postal_code, $country);
-                $stmt->execute();
+                
+                if (!$stmt->execute()) {
+                    throw new Exception("Error saving address information: " . $stmt->error);
+                }
             }
 
             // Assign customer role
@@ -74,14 +167,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 SELECT ?, id FROM roles WHERE name = 'customer'
             ");
             $stmt->bind_param("i", $user_id);
-            $stmt->execute();
+            
+            if (!$stmt->execute()) {
+                throw new Exception("Error assigning user role: " . $stmt->error);
+            }
 
             $conn->commit();
+            error_log("User registration successful for: " . $username);
             flashMessage("Registration successful! You can now login.");
             redirect('login.php');
 
         } catch (Exception $e) {
             $conn->rollback();
+            error_log("Registration error: " . $e->getMessage());
             flashMessage($e->getMessage(), "danger");
         }
     }
@@ -219,10 +317,14 @@ require_once 'includes/header.php';
                                     <i class="fas fa-calendar"></i>
                                 </span>
                                 <input type="date" name="birthdate" class="form-control bg-dark text-light border-secondary" 
-                                       id="birthdate" value="<?php echo isset($_POST['birthdate']) ? htmlspecialchars($_POST['birthdate']) : ''; ?>" 
-                                       required max="<?php echo date('Y-m-d', strtotime('-18 years')); ?>">
+                                       id="birthdate" 
+                                       value="<?php echo isset($_POST['birthdate']) ? htmlspecialchars($_POST['birthdate']) : ''; ?>" 
+                                       required 
+                                       max="<?php echo date('Y-m-d', strtotime('-18 years')); ?>"
+                                       onchange="validateBirthdate(this)">
                             </div>
-                            <small class="text-light-emphasis">You must be at least 18 years old to register</small>
+                            <small class="text-light-emphasis">You must be at least 18 years old to register (Format: YYYY-MM-DD)</small>
+                            <div id="birthdateError" class="invalid-feedback"></div>
                         </div>
 
                         <!-- Address Information -->
@@ -371,22 +473,59 @@ document.querySelectorAll('.input-group').forEach(group => {
     });
 });
 
-// Birthdate validation
-const birthdate = document.getElementById('birthdate');
-birthdate.addEventListener('change', function() {
-    const selectedDate = new Date(this.value);
+// Birthdate validation function
+function validateBirthdate(input) {
+    const selectedDate = new Date(input.value);
     const today = new Date();
-    const age = today.getFullYear() - selectedDate.getFullYear();
+    let age = today.getFullYear() - selectedDate.getFullYear();
     const monthDiff = today.getMonth() - selectedDate.getMonth();
     
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < selectedDate.getDate())) {
         age--;
     }
     
+    const errorDiv = document.getElementById('birthdateError');
+    
     if (age < 18) {
-        this.setCustomValidity('You must be at least 18 years old to register');
+        input.setCustomValidity('You must be at least 18 years old to register');
+        errorDiv.textContent = `You are ${age} years old. You must be at least 18 years old to register.`;
+        input.classList.add('is-invalid');
     } else {
-        this.setCustomValidity('');
+        input.setCustomValidity('');
+        errorDiv.textContent = '';
+        input.classList.remove('is-invalid');
+    }
+    
+    // Log the date for debugging
+    console.log('Selected date:', input.value);
+    console.log('Calculated age:', age);
+}
+
+// Initialize birthdate validation on page load
+document.addEventListener('DOMContentLoaded', function() {
+    const birthdateInput = document.getElementById('birthdate');
+    if (birthdateInput.value) {
+        validateBirthdate(birthdateInput);
+    }
+    
+    // Ensure the date input sends YYYY-MM-DD format
+    birthdateInput.addEventListener('input', function() {
+        console.log('Birthdate input value:', this.value);
+    });
+});
+
+// Form validation before submission
+document.getElementById('registerForm').addEventListener('submit', function(e) {
+    const birthdateInput = document.getElementById('birthdate');
+    const selectedDate = new Date(birthdateInput.value);
+    
+    // Log form data before submission
+    console.log('Form submission - Birthdate value:', birthdateInput.value);
+    
+    if (isNaN(selectedDate.getTime())) {
+        e.preventDefault();
+        birthdateInput.classList.add('is-invalid');
+        document.getElementById('birthdateError').textContent = 'Please enter a valid date in YYYY-MM-DD format';
     }
 });
 </script>
