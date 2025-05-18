@@ -1,0 +1,873 @@
+[2025-05-18 11:14:03] Error: [8] session_start(): Ignoring session_start() because a session is already active in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\login.php on line 5
+[2025-05-18 11:17:23] Error: [8] session_start(): Ignoring session_start() because a session is already active in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\login.php on line 5
+[2025-05-18 11:28:54] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:28:58] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:29:06] Error: [8] session_start(): Ignoring session_start() because a session is already active in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\login.php on line 5
+[2025-05-18 11:29:23] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:29:27] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:29:41] Error: [8] session_start(): Ignoring session_start() because a session is already active in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\login.php on line 5
+[2025-05-18 11:41:36] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:41:49] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:45:14] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:45:15] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:45:15] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:45:15] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:45:15] Exception: array_filter(): Argument #1 ($array) must be of type array, mysqli_result given in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 43
+[2025-05-18 11:46:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:30] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:46:31] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:31] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:32] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:46:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:46:33] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:57:36] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:36] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:57:40] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:40] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:57:41] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:41] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:42] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:57:49] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:49] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:57:50] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:00] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:58:03] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:03] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:58:03] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:03] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:58:08] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:01] Error: [8] session_start(): Ignoring session_start() because a session is already active in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\login.php on line 5
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:01] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:06] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:13] Exception: Unknown column 'is_featured' in 'where clause' in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 7
+[2025-05-18 11:59:28] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:28] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:59:28] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:59:28] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:28] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:33] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:33] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 11:59:42] Error: [8] session_start(): Ignoring session_start() because a session is already active in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\login.php on line 5
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 11:59:42] Error: [2] Undefined array key "is_featured" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\footer.php on line 44
+[2025-05-18 12:01:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:10] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:01:11] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:01:11] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:18] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:18] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:19] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:21] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:21] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:25] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\categories.php on line 36
+[2025-05-18 12:03:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:30] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:35] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:42] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:44] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:44] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:03:55] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:04] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:10] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:04:13] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:06:09] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:12:38] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:38] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:51] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:52] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:52] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:52] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:52] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:52] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:52] Error: [2] Undefined array key "product_id" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\products.php on line 148
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:12:58] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:13:00] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\includes\header.php on line 85
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
+[2025-05-18 12:14:27] Error: [2] Undefined array key "icon" in C:\schoolWorks\XAMPP\htdocs\Drunkies-Application\index.php on line 242
