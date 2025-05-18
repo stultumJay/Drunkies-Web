@@ -2,6 +2,9 @@
 require_once '../includes/functions.php';
 require_once '../includes/database.php';
 
+// Flow: Admin Products Management Page
+// 1. Include required files and check authentication
+
 // Check if user is admin
 if (!isAdmin()) {
     redirect('../index.php');
@@ -9,8 +12,10 @@ if (!isAdmin()) {
 
 $db = Database::getInstance();
 
-// Handle form submission
+// 2. Handle Product Creation
+// Flow: Process form submission when adding new product
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Sanitize and prepare product data
     $name = sanitize($_POST['name']);
     $brand_id = (int)$_POST['brand_id'];
     $price = (float)$_POST['price'];
@@ -18,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stock = (int)$_POST['stock'];
     $description = sanitize($_POST['description']);
     
-    // Handle image upload
+    // Flow: Handle image upload if provided, otherwise use default
     $image_path = 'assets/images/no-image.jpg'; // Default image
     if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
         $uploaded_image = uploadImage($_FILES['image'], 'assets/images/products/');
@@ -27,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
     
-    // Insert product
+    // Flow: Insert new product into database
     $stmt = $db->prepare("INSERT INTO products (name, brand_id, price, size, stock, description, image, is_active) VALUES (?, ?, ?, ?, ?, ?, ?, 1)");
     $stmt->bind_param("sidsiss", $name, $brand_id, $price, $size, $stock, $description, $image_path);
     
@@ -39,10 +44,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-// Get all brands for dropdown
+// 3. Fetch Data for Display
+// Flow: Get brands for dropdown in add/edit forms
 $brands = $db->query("SELECT * FROM brands ORDER BY name")->fetch_all(MYSQLI_ASSOC);
 
-// Get all products with brand names
+// Flow: Get all products with their brand names
 $products = $db->query("
     SELECT p.*, b.name as brand_name 
     FROM products p 
@@ -50,20 +56,25 @@ $products = $db->query("
     ORDER BY p.created_at DESC
 ")->fetch_all(MYSQLI_ASSOC);
 
+// 4. Include Header Template
 require_once 'includes/header.php';
 ?>
 
+<!-- 5. Page Layout -->
 <div class="container-fluid py-4">
+    <!-- Header with Add Product Button -->
     <div class="row mb-4">
         <div class="col-12 d-flex justify-content-between align-items-center">
             <h1 class="h3 mb-0">Products Management</h1>
+            <!-- Flow: Button triggers Add Product Modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal">
                 <i class="fas fa-plus me-1"></i> Add New Product
             </button>
         </div>
     </div>
 
-    <!-- Products Table -->
+    <!-- 6. Products Table -->
+    <!-- Flow: Display all products with actions -->
     <div class="card">
         <div class="card-body">
             <div class="table-responsive">
@@ -81,6 +92,7 @@ require_once 'includes/header.php';
                     </thead>
                     <tbody>
                         <?php foreach ($products as $product): ?>
+                        <!-- Flow: Each row shows product details and action buttons -->
                         <tr>
                             <td>
                                 <img src="../<?php echo $product['image']; ?>" 
@@ -94,6 +106,7 @@ require_once 'includes/header.php';
                             <td><?php echo htmlspecialchars($product['size']); ?></td>
                             <td><?php echo $product['stock']; ?></td>
                             <td>
+                                <!-- Flow: Edit button triggers edit modal, Delete button calls deleteProduct() -->
                                 <div class="btn-group">
                                     <button type="button" 
                                             class="btn btn-sm btn-primary"
@@ -117,7 +130,8 @@ require_once 'includes/header.php';
     </div>
 </div>
 
-<!-- Add Product Modal -->
+<!-- 7. Add Product Modal -->
+<!-- Flow: Form for adding new products -->
 <div class="modal fade" id="addProductModal" tabindex="-1">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -181,12 +195,16 @@ require_once 'includes/header.php';
     </div>
 </div>
 
+<!-- 8. JavaScript Functions -->
 <script>
+// Flow: Confirmation before deleting product
 function deleteProduct(productId) {
     if (confirm('Are you sure you want to delete this product?')) {
+        // Flow: Redirects to products.php with delete parameter
         window.location.href = `products.php?delete=${productId}`;
     }
 }
 </script>
 
+<!-- 9. Include Footer Template -->
 <?php require_once 'includes/footer.php'; ?> 

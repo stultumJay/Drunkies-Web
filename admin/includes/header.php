@@ -1,15 +1,20 @@
 <?php
+// Flow: This is the main admin header file that's included at the top of all admin pages
+// 1. Start session and include database connection
 session_start();
 require_once '../config/database.php';
 
-// Check if user is logged in and is admin
+// 2. Authentication check - redirects to login if not admin
+// Flow: If not authenticated, redirects to login.php in root directory
 if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || !$_SESSION['is_admin']) {
     header('Location: ../login.php');
     exit;
 }
 
-// Get current page for active menu highlighting
+// 3. Get current page name for active menu highlighting
 $current_page = basename($_SERVER['PHP_SELF']);
+
+// 4. HTML header starts here with meta tags and CSS includes
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -131,13 +136,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
 </head>
 <body>
 
-<!-- Sidebar -->
+<!-- 5. Sidebar Navigation -->
 <div class="admin-sidebar">
+    <!-- Flow: Each nav link checks current page to highlight active section -->
     <div class="px-3 mb-4">
         <h4 class="text-center">Drunkies</h4>
         <p class="text-center mb-0"><small>Admin Panel</small></p>
     </div>
     <nav class="nav flex-column">
+        <!-- Flow: Each link checks against current page and sets active class -->
         <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>" href="index.php">
             <i class="fas fa-tachometer-alt me-2"></i>
             <span>Dashboard</span>
@@ -178,10 +185,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
     </nav>
 </div>
 
-<!-- Main Content -->
+<!-- 6. Main Content Area -->
+<!-- Flow: This section appears on every admin page and contains the page title and alerts -->
 <div class="admin-main">
-    <!-- Header -->
+    <!-- 7. Header with page title and user info -->
     <div class="admin-header d-flex justify-content-between align-items-center">
+        <!-- Flow: Dynamically shows current page name in title -->
         <h1 class="h3 mb-0">
             <?php
             $page = basename($_SERVER['PHP_SELF'], '.php');
@@ -196,8 +205,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
     </div>
 
+    <!-- 8. Alert Messages Container -->
+    <!-- Flow: Shows success/error messages from session variables -->
     <div class="container-fluid py-4">
         <?php if (isset($_SESSION['success'])): ?>
+            <!-- Flow: Success message is displayed and then cleared from session -->
             <div class="alert alert-success alert-dismissible fade show" role="alert">
                 <?php 
                 echo $_SESSION['success'];
@@ -219,7 +231,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     </div>
 </div>
 
-<!-- Bootstrap JS -->
+<!-- 9. Include Bootstrap JS at the end -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html> 

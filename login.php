@@ -1,87 +1,99 @@
 <?php
+// Flow: User Login Page
 require_once 'config/database.php';
-require_once 'includes/header.php';
+require_once 'includes/functions.php';
 
-// Check if user is already logged in
-if (isset($_SESSION['user_id'])) {
-    header('Location: ' . ($_SESSION['is_admin'] ? 'admin/index.php' : 'index.php'));
-    exit;
+// Redirect if already logged in
+if (isLoggedIn()) {
+    redirect('index.php');
 }
 
-$error = '';
-
-// Handle form submission
+// Handle login form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $email = trim($_POST['email']);
-    $password = $_POST['password'];
-
-    if (empty($email) || empty($password)) {
-        $error = 'Please fill in all fields';
+    $username = $_POST['username'] ?? '';
+    $password = $_POST['password'] ?? '';
+    
+    if (empty($username) || empty($password)) {
+        flashMessage("Please fill in all fields", "danger");
     } else {
-        // Prepare SQL statement
-        $query = "SELECT id, username, password, is_admin FROM users WHERE email = ?";
-        $stmt = $conn->prepare($query);
-        $stmt->bind_param("s", $email);
+        // Check credentials
+        $stmt = $conn->prepare("SELECT * FROM users WHERE username = ?");
+        $stmt->bind_param("s", $username);
         $stmt->execute();
-        $result = $stmt->get_result();
-
-        if ($result->num_rows === 1) {
-            $user = $result->fetch_assoc();
+        $user = $stmt->get_result()->fetch_assoc();
+        
+        if ($user && password_verify($password, $user['password'])) {
+            // Set session variables
+            $_SESSION['user_id'] = $user['id'];
+            $_SESSION['username'] = $user['username'];
+            $_SESSION['is_admin'] = $user['is_admin'];
             
-            // Verify password
-            if (password_verify($password, $user['password'])) {
-                // Set session variables
-                $_SESSION['user_id'] = $user['id'];
-                $_SESSION['username'] = $user['username'];
-                $_SESSION['is_admin'] = $user['is_admin'];
-
-                // Redirect based on user role
-                header('Location: ' . ($user['is_admin'] ? 'admin/index.php' : 'index.php'));
-                exit;
-            } else {
-                $error = 'Invalid email or password';
-            }
+            // Redirect based on role
+            redirect($user['is_admin'] ? 'admin/index.php' : 'index.php');
         } else {
-            $error = 'Invalid email or password';
+            flashMessage("Invalid username or password", "danger");
         }
     }
 }
+
+require_once 'includes/header.php';
 ?>
 
 <div class="container py-5">
     <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card shadow">
-                <div class="card-body p-5">
-                    <h2 class="text-center mb-4">Login</h2>
-                    <?php if ($error): ?>
-                        <div class="alert alert-danger" role="alert">
-                            <?php echo htmlspecialchars($error); ?>
+        <div class="col-md-8 col-lg-5">
+            <div class="card bg-dark text-light shadow-lg border-0">
+                <div class="card-body p-4">
+                    <div class="text-center mb-4">
+                        <h2 class="fw-bold text-warning mb-2">Welcome Back!</h2>
+                        <p class="text-light-emphasis mb-0">Enter your credentials to access your account</p>
+                    </div>
+
+                    <?php if ($flash = getFlashMessage()): ?>
+                        <div class="alert alert-<?php echo $flash['type']; ?> text-center">
+                            <?php echo $flash['message']; ?>
                         </div>
                     <?php endif; ?>
 
-                    <form id="loginForm">
+                    <form method="POST" action="">
                         <div class="mb-3">
-                            <label for="username" class="form-label">Username</label>
-                            <input type="text" class="form-control" id="username" name="username" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
+                            <label for="username" class="form-label text-light-emphasis">Username</label>
                             <div class="input-group">
-                                <input type="password" class="form-control" id="password" name="password" required>
+                                <span class="input-group-text bg-dark border-secondary text-light">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <input type="text" name="username" class="form-control bg-dark text-light border-secondary" 
+                                       id="username" value="<?php echo isset($_POST['username']) ? htmlspecialchars($_POST['username']) : ''; ?>" 
+                                       required>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="password" class="form-label text-light-emphasis">Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-dark border-secondary text-light">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                                <input type="password" name="password" class="form-control bg-dark text-light border-secondary" 
+                                       id="password" required>
                                 <button class="btn btn-outline-secondary" type="button" id="togglePassword">
                                     <i class="fas fa-eye"></i>
                                 </button>
                             </div>
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="remember" name="remember">
-                            <label class="form-check-label" for="remember">Remember me</label>
+
+                        <div class="mb-4">
+                            <button type="submit" class="btn btn-warning w-100 fw-bold">
+                                <i class="fas fa-sign-in-alt me-2"></i>Log In
+                            </button>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">Login</button>
                     </form>
-                    <div class="text-center mt-3">
-                        <p>Don't have an account? <a href="register.php">Register here</a></p>
+
+                    <div class="text-center">
+                        <p class="text-light-emphasis mb-0">
+                            Don't have an account? 
+                            <a href="register.php" class="text-warning text-decoration-none fw-bold">Sign up</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -90,6 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <script>
+// Toggle password visibility
 document.getElementById('togglePassword').addEventListener('click', function() {
     const password = document.getElementById('password');
     const icon = this.querySelector('i');
@@ -103,6 +116,22 @@ document.getElementById('togglePassword').addEventListener('click', function() {
         icon.classList.remove('fa-eye-slash');
         icon.classList.add('fa-eye');
     }
+});
+
+// Add hover effect to input groups
+document.querySelectorAll('.input-group').forEach(group => {
+    group.addEventListener('mouseenter', () => {
+        group.querySelectorAll('.form-control, .input-group-text, .btn-outline-secondary').forEach(el => {
+            el.style.borderColor = '#ffc107';
+            el.style.transition = 'border-color 0.3s ease';
+        });
+    });
+    
+    group.addEventListener('mouseleave', () => {
+        group.querySelectorAll('.form-control, .input-group-text, .btn-outline-secondary').forEach(el => {
+            el.style.borderColor = '';
+        });
+    });
 });
 </script>
 

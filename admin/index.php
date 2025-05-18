@@ -1,8 +1,13 @@
 <?php
+// Flow: Admin Dashboard Main Page
+// 1. Include required files
+// database.php: Establishes database connection
+// header.php: Includes admin header, navigation, and authentication check
 require_once '../config/database.php';
 require_once 'includes/header.php';
 
-// Get sales statistics
+// 2. Fetch Dashboard Statistics
+// Flow: Get sales statistics from orders table
 $query = "SELECT 
             COUNT(*) as total_orders,
             COALESCE(SUM(total_amount), 0) as total_sales,
@@ -11,12 +16,12 @@ $query = "SELECT
 $result = $conn->query($query);
 $salesStats = $result->fetch_assoc();
 
-// Get total users count
+// Flow: Get total number of non-admin users
 $query = "SELECT COUNT(*) as total_users FROM users WHERE is_admin = 0";
 $result = $conn->query($query);
 $userStats = $result->fetch_assoc();
 
-// Get recent orders
+// Flow: Get 5 most recent orders with customer names
 $query = "SELECT o.*, u.name as user_name 
           FROM orders o 
           JOIN users u ON o.user_id = u.id 
@@ -24,7 +29,7 @@ $query = "SELECT o.*, u.name as user_name
           LIMIT 5";
 $recentOrders = $conn->query($query);
 
-// Get low stock products
+// Flow: Get products with stock <= 10
 $query = "SELECT p.*, b.name as brand_name 
           FROM products p 
           JOIN brands b ON p.brand_id = b.id 
@@ -34,10 +39,13 @@ $query = "SELECT p.*, b.name as brand_name
 $lowStockProducts = $conn->query($query);
 ?>
 
+<!-- 3. Dashboard Layout -->
 <div class="container-fluid py-4">
-    <!-- Statistics Cards -->
+    <!-- 4. Statistics Cards Section -->
+    <!-- Flow: Display 4 cards showing key metrics -->
     <div class="row">
-        <!-- Total Sales -->
+        <!-- Total Sales Card -->
+        <!-- Flow: Shows total sales amount from orders table -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
@@ -54,7 +62,8 @@ $lowStockProducts = $conn->query($query);
             </div>
         </div>
 
-        <!-- Total Orders -->
+        <!-- Total Orders Card -->
+        <!-- Flow: Shows count of all orders -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-success shadow h-100 py-2">
                 <div class="card-body">
@@ -71,7 +80,8 @@ $lowStockProducts = $conn->query($query);
             </div>
         </div>
 
-        <!-- Average Order Value -->
+        <!-- Average Order Value Card -->
+        <!-- Flow: Shows average amount per order -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-warning shadow h-100 py-2">
                 <div class="card-body">
@@ -88,7 +98,8 @@ $lowStockProducts = $conn->query($query);
             </div>
         </div>
 
-        <!-- Total Users -->
+        <!-- Total Users Card -->
+        <!-- Flow: Shows count of non-admin users -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-info shadow h-100 py-2">
                 <div class="card-body">
@@ -106,9 +117,10 @@ $lowStockProducts = $conn->query($query);
         </div>
     </div>
 
-    <!-- Content Row -->
+    <!-- 5. Data Tables Section -->
     <div class="row">
-        <!-- Recent Orders -->
+        <!-- Recent Orders Table -->
+        <!-- Flow: Shows last 5 orders with status badges -->
         <div class="col-xl-6 mb-4">
             <div class="card shadow">
                 <div class="card-header py-3">
@@ -128,19 +140,20 @@ $lowStockProducts = $conn->query($query);
                             <tbody>
                                 <?php if ($recentOrders->num_rows > 0): ?>
                                     <?php while ($order = $recentOrders->fetch_assoc()): ?>
+                                        <!-- Flow: Status badge color changes based on order status -->
+                                        <?php
+                                        $statusClass = match($order['status']) {
+                                            'completed' => 'success',
+                                            'pending' => 'warning',
+                                            'cancelled' => 'danger',
+                                            default => 'secondary'
+                                        };
+                                        ?>
                                         <tr>
                                             <td>#<?php echo $order['id']; ?></td>
                                             <td><?php echo htmlspecialchars($order['user_name']); ?></td>
                                             <td>₱<?php echo number_format($order['total_amount'], 2); ?></td>
                                             <td>
-                                                <?php
-                                                $statusClass = match($order['status']) {
-                                                    'completed' => 'success',
-                                                    'pending' => 'warning',
-                                                    'cancelled' => 'danger',
-                                                    default => 'secondary'
-                                                };
-                                                ?>
                                                 <span class="badge bg-<?php echo $statusClass; ?>">
                                                     <?php echo ucfirst($order['status']); ?>
                                                 </span>
@@ -159,7 +172,9 @@ $lowStockProducts = $conn->query($query);
             </div>
         </div>
 
-        <!-- Low Stock Products -->
+        <!-- Low Stock Products Table -->
+        <!-- Flow: Shows products with stock <= 10 -->
+        <!-- Flow: Links to edit_product.php for stock updates -->
         <div class="col-xl-6 mb-4">
             <div class="card shadow">
                 <div class="card-header py-3">
@@ -207,4 +222,6 @@ $lowStockProducts = $conn->query($query);
     </div>
 </div>
 
+<!-- 6. Include Footer -->
+<!-- Flow: Includes admin footer with any closing scripts -->
 <?php require_once 'includes/footer.php'; ?> 
